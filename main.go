@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
+	go eth.Init()
 	core.Init()
-	eth.Init()
 }
